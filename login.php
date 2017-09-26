@@ -49,7 +49,7 @@ session_start();//session starts here
 
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">HOME</a></li>
-                        <li><a href="#">Item</a></li>
+                        <li><a href="Textbook.php">Item</a></li>
                         <li><a href="login.php">LOGIN</a></li>
                                          
                                          
@@ -91,30 +91,8 @@ session_start();//session starts here
 </div>  
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
- <footer id="footer" class="midnight-blue">
+ <footer id="footer" class="midnight-blue"style="margin-top: 380px">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">

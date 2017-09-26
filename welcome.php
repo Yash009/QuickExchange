@@ -1,14 +1,10 @@
 <?php  
-session_start();  
-  
+session_start();
 if(!$_SESSION['email'])
-{  
-  
+{
     header("Location: login.php");//redirect to login page to secure the welcome page without login access.
 }
-  
-?>  
-
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -59,16 +55,9 @@ if(!$_SESSION['email'])
                         <li><a href="Textbook.php">Item</a></li>
                         <li><a href="login.php">LOGIN</a></li>
                         <li><a href= "#">WELCOME <?php echo $_SESSION['email'];  ?> </a></li>  
-                        <li><a href="logout.php">LOGOUT</a></li>  
-                        
-                        
-                                         
-                                         
-
+                        <li><a href="logout.php">LOGOUT</a></li>
                     </ul>
-
                 </div>
-
         </nav><!--/nav-->
         <div>
             <?php if(isset($_SESSION['email'])) : ?>
@@ -81,10 +70,8 @@ if(!$_SESSION['email'])
             <?php endif;?>
 
         </div>
-		
     </header><!--/header-->
-
-    <footer id="footer" class="midnight-blue" style="margin-top: 400px">
+    <footer id="footer" class="midnight-blue" style="margin-top: 540px">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -101,7 +88,6 @@ if(!$_SESSION['email'])
             </div>
         </div>
     </footer><!--/#footer-->
-
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
@@ -110,5 +96,3 @@ if(!$_SESSION['email'])
     <script src="js/wow.min.js"></script>
 </body>
 </html>
-  
- 

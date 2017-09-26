@@ -125,7 +125,7 @@ function createNewComplain($firstname, $lastname, $phone, $email, $subject, $mes
 }
 
 
-function createNewitem($userid, $contactemail, $title, $description,$author, $price)
+function createNewitem($userid, $contactemail, $title, $description,$author, $price, $picture)
 {
     global $mysqli;
     //Generate A random userid
@@ -141,13 +141,13 @@ function createNewitem($userid, $contactemail, $title, $description,$author, $pr
    */
     $stmt = $mysqli->prepare(
         "INSERT INTO qe_items (
-			user_id,
-		user_email,
-		item_desc1,
-		item_desc2,
-		item_desc3,
-		requested_price,
-		item_img_file_location
+			userid,
+		contactemail,
+		title,
+		description,
+		author,
+		price,
+		imageupload
 		)
 		VALUES (
 		?,
@@ -159,7 +159,7 @@ function createNewitem($userid, $contactemail, $title, $description,$author, $pr
 		?
 		)"
     );
-    $stmt->bind_param("sssssss", $userid, $contactemail, $title, $description, $author, $price,$image);
+    $stmt->bind_param("sssssss", $userid, $contactemail, $title, $description,$author, $price, $picture);
     $result = $stmt->execute();
     $stmt->close();
     return $result;

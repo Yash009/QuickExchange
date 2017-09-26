@@ -65,7 +65,7 @@ $picture = $_FILES['imageupload']['name'];
 
 
 //Creating a variable to hold the "@return boolean value returned by function createNewUser - is boolean 1 with
-//successfull and 0 when there is an error with executing the query .
+//successful and 0 when there is an error with executing the query .
 
 $newitem = createNewitem($userid, $contactemail, $title, $description,$author, $price, $picture);
 header("Location: Textbook.php");

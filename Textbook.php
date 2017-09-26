@@ -49,7 +49,6 @@ session_start(); ?>
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">HOME</a></li>
                         <li><a href="textbook.php">Item</a></li>
-                        <li><a href="login.php">LOGIN</a></li>
                         <?php if ($_SESSION) { ?>
                         <li><a href= "welcome.php">WELCOME <?php echo $_SESSION['email'];  ?> </a></li>
                         <li><a href="logout.php">LOGOUT</a></li>  
@@ -96,13 +95,14 @@ error_reporting(0);
 
  <div class = "well">
             
-            <p><label>Title: </label><?php echo $item['item_desc1'];?></p>
-            <p><label>Description: </label><?php echo $item['item_desc2'];?></p>
-            <p><label>Author: </label><?php echo $item['item_desc3'];?></p>
-            <p><label>Price: </label><?php echo $item['requested_price'];?></p>
+            <p><label>Title: </label><?php echo $item['title'];?></p>
+            <p><label>Description: </label><?php echo $item['description'];?></p>
+            <p><label>Author: </label><?php echo $item['author'];?></p>
+            <p><label>Price: </label><?php echo $item['price'];?></p>
+     <p><label>Picture: </label><?php echo "<td><img src='images/$item[imageupload]' height='150px' width='300px'></td>"; ;?></p>
 <?php if($_SESSION['email'])  
       {  ?>
-            <p><label>Seller Email: </label><?php echo $item['user_email'];?></p>
+            <p><label>Seller Email: </label><?php echo $item['contactemail'];?></p>
            
  <?php  
   }  
@@ -152,4 +152,3 @@ error_reporting(0);
     <script src="js/wow.min.js"></script>
 </body>
 </html>
-  

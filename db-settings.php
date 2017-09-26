@@ -1,8 +1,9 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: PraviinM
+ * User: yash chaturvedi
  */
+
 
   //Development Database Information
     $db_host = "localhost"; //Host address (most likely localhost)
