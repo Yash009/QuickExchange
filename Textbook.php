@@ -48,11 +48,8 @@ session_start(); ?>
 
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">HOME</a></li>
-                        <li><a href="textbook.php">TEXTBOOK</a></li>
-                        <li><a href="#">SOCIAL EVENTS</a></li>
-                        <li><a href="#">QUESTIONS&ANSWERS</a></li>
-                        <li><a href="#">FIND ROOMATES</a></li>
-                        <li><a href="#">FIND TUTORS</a></li>
+                        <li><a href="textbook.php">Item</a></li>
+                        <li><a href="login.php">LOGIN</a></li>
                         <?php if ($_SESSION) { ?>
                         <li><a href= "welcome.php">WELCOME <?php echo $_SESSION['email'];  ?> </a></li>
                         <li><a href="logout.php">LOGOUT</a></li>  
@@ -129,7 +126,7 @@ error_reporting(0);
 <?php }?>
 
 
- <footer id="footer" class="midnight-blue">
+ <footer id="footer" class="midnight-blue" style="margin-top: 450px">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">

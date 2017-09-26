@@ -56,11 +56,8 @@ if(!$_SESSION['email'])
 
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">HOME</a></li>
-                        <li><a href="Textbook.php">TEXTBOOK</a></li>
-                        <li><a href="#">SOCIAL EVENTS</a></li>
-                        <li><a href="#">QUESTIONS&ANSWERS</a></li>
-                        <li><a href="#">FIND ROOMATES</a></li>
-                        <li><a href="#">FIND TUTORS</a></li>
+                        <li><a href="Textbook.php">Item</a></li>
+                        <li><a href="login.php">LOGIN</a></li>
                         <li><a href= "#">WELCOME <?php echo $_SESSION['email'];  ?> </a></li>  
                         <li><a href="logout.php">LOGOUT</a></li>  
                         
