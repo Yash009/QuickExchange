@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e05165b3-b675-4df1-a632-3927f8a424d4" name="Default" comment="" />
+    <list default="true" id="e05165b3-b675-4df1-a632-3927f8a424d4" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/._ContactUs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/._PostBooks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/._SearchedItem.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/._config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/._contact-us.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/._css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/._fonts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/._functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/._images" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/._index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/._js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/._login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/._logout.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/._sendemail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/._signup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/._signup.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/._welcome.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welcome.php" afterPath="$PROJECT_DIR$/welcome.php" />
+    </list>
     <ignored path="QuickExchange.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -24,9 +44,21 @@
       <file leaf-file-name="PostBooks.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PostBooks.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-1674">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/welcome.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="78" column="79" lean-forward="false" selection-start-line="78" selection-start-column="70" selection-end-line="78" selection-end-column="79" />
+              <folding>
+                <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,14 +85,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Textbook.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Textbook.php">
+      <file leaf-file-name="image.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1512">
-              <caret line="56" column="49" lean-forward="false" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
-              <folding>
-                <marker date="1506365857449" expanded="true" signature="3636:3681" ph="SELECT * FRO... qe_items" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="62" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,16 +100,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.inc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../phpMyAdmin/config.inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -97,10 +117,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="3861">
               <caret line="143" column="42" lean-forward="true" selection-start-line="143" selection-start-column="42" selection-end-line="143" selection-end-column="42" />
               <folding>
                 <marker date="1506436271075" expanded="true" signature="5512:5585" ph="select * fro... qe_users" />
@@ -119,17 +139,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3294">
-              <caret line="127" column="59" lean-forward="false" selection-start-line="127" selection-start-column="58" selection-end-line="127" selection-end-column="59" />
+            <state relative-caret-position="135">
+              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding>
-                <marker date="1506365856125" expanded="true" signature="250:404" ph="SELECT id, u... ${$db_table_prefix}" />
-                <marker date="1506365856125" expanded="true" signature="1798:1981" ph="INSERT INTO qe_contact... " />
-                <marker date="1506365856125" expanded="true" signature="2470:2657" ph="INSERT INTO qe_items... " />
-                <marker date="1506365856125" expanded="true" signature="3023:3212" ph="SELECT id, u... user" />
-                <marker date="1506365856125" expanded="true" signature="4754:4958" ph="SELECT id, u... user" />
+                <marker date="1506437243549" expanded="true" signature="257:411" ph="SELECT id, u... ${$db_table_prefix}" />
+                <marker date="1506437243549" expanded="true" signature="1805:1988" ph="INSERT INTO qe_contact... " />
+                <marker date="1506437243549" expanded="true" signature="2477:2664" ph="INSERT INTO qe_items... " />
+                <marker date="1506437243549" expanded="true" signature="3030:3219" ph="SELECT id, u... user" />
+                <marker date="1506437243549" expanded="true" signature="4761:4965" ph="SELECT id, u... user" />
               </folding>
             </state>
           </provider>
@@ -148,21 +168,20 @@
     <findStrings>
       <find>pass</find>
       <find>user</find>
+      <find>exchange</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/services.html" />
         <option value="$PROJECT_DIR$/Textbook.html" />
-        <option value="$PROJECT_DIR$/welcome.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/ContactUs.php" />
         <option value="$PROJECT_DIR$/contact-us.html" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/db-settings.php" />
         <option value="$PROJECT_DIR$/image.html" />
         <option value="$PROJECT_DIR$/image.php" />
@@ -174,6 +193,8 @@
         <option value="$PROJECT_DIR$/signup.html" />
         <option value="$PROJECT_DIR$/signup.php" />
         <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/welcome.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
       </list>
     </option>
   </component>
@@ -214,29 +235,9 @@
               <option name="myItemId" value="QuickExchange" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="QuickExchange" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="QuickExchange" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="QuickExchange" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="QuickExchange" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -263,7 +264,27 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -275,6 +296,10 @@
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -293,6 +318,19 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -308,12 +346,12 @@
       <option name="presentableId" value="Default" />
       <updated>1461096700969</updated>
       <workItem from="1506379939879" duration="4117000" />
-      <workItem from="1506435677326" duration="639000" />
+      <workItem from="1506435677326" duration="1561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4756000" />
+    <option name="totallyTimeSpent" value="5678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
@@ -390,11 +428,11 @@
         <state relative-caret-position="0">
           <caret line="99" column="18" lean-forward="false" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
           <folding>
-            <marker date="1506365856125" expanded="true" signature="250:404" ph="SELECT id, u... ${$db_table_prefix}" />
-            <marker date="1506365856125" expanded="true" signature="1798:1981" ph="INSERT INTO qe_contact... " />
-            <marker date="1506365856125" expanded="true" signature="2470:2657" ph="INSERT INTO qe_items... " />
-            <marker date="1506365856125" expanded="true" signature="3023:3212" ph="SELECT id, u... user" />
-            <marker date="1506365856125" expanded="true" signature="4754:4958" ph="SELECT id, u... user" />
+            <marker date="1506437243549" expanded="true" signature="257:411" ph="SELECT id, u... ${$db_table_prefix}" />
+            <marker date="1506437243549" expanded="true" signature="1805:1988" ph="INSERT INTO qe_contact... " />
+            <marker date="1506437243549" expanded="true" signature="2477:2664" ph="INSERT INTO qe_items... " />
+            <marker date="1506437243549" expanded="true" signature="3030:3219" ph="SELECT id, u... user" />
+            <marker date="1506437243549" expanded="true" signature="4761:4965" ph="SELECT id, u... user" />
           </folding>
         </state>
       </provider>
@@ -433,13 +471,6 @@
     <entry file="file://$PROJECT_DIR$/../FirstCRUD/displayAllRecords.php" />
     <entry file="file://$PROJECT_DIR$/../FirstCRUD/functions.php" />
     <entry file="file://$PROJECT_DIR$/../FirstCRUD/DisplaySearchedRecord.php" />
-    <entry file="file://$PROJECT_DIR$/welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="109" lean-forward="false" selection-start-line="6" selection-start-column="109" selection-end-line="6" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ImageUpload/index.php" />
     <entry file="file://$PROJECT_DIR$/._login.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -498,17 +529,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ImageUpload/register.php" />
     <entry file="file://$PROJECT_DIR$/../ImageUpload/pp.php" />
-    <entry file="file://$PROJECT_DIR$/image.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="999">
           <caret line="37" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -519,14 +544,6 @@
           <folding>
             <marker date="1506365857449" expanded="true" signature="3636:3681" ph="SELECT * FRO... qe_items" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PostBooks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -545,50 +562,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SearchedItem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <marker date="1506365856990" expanded="true" signature="57:120" ph="SELECT * FRO... qe_items" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3294">
-          <caret line="127" column="59" lean-forward="false" selection-start-line="127" selection-start-column="58" selection-end-line="127" selection-end-column="59" />
-          <folding>
-            <marker date="1506365856125" expanded="true" signature="250:404" ph="SELECT id, u... ${$db_table_prefix}" />
-            <marker date="1506365856125" expanded="true" signature="1798:1981" ph="INSERT INTO qe_contact... " />
-            <marker date="1506365856125" expanded="true" signature="2470:2657" ph="INSERT INTO qe_items... " />
-            <marker date="1506365856125" expanded="true" signature="3023:3212" ph="SELECT id, u... user" />
-            <marker date="1506365856125" expanded="true" signature="4754:4958" ph="SELECT id, u... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1863">
-          <caret line="69" column="97" lean-forward="false" selection-start-line="69" selection-start-column="97" selection-end-line="69" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db-settings.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="62" column="4" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="72" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -603,12 +580,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="62" column="4" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="72" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="3861">
           <caret line="143" column="42" lean-forward="true" selection-start-line="143" selection-start-column="42" selection-end-line="143" selection-end-column="42" />
           <folding>
             <marker date="1506436271075" expanded="true" signature="5512:5585" ph="select * fro... qe_users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostBooks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1674">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="78" column="79" lean-forward="false" selection-start-line="78" selection-start-column="70" selection-end-line="78" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchedItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <marker date="1506365856990" expanded="true" signature="57:120" ph="SELECT * FRO... qe_items" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1863">
+          <caret line="69" column="97" lean-forward="false" selection-start-line="69" selection-start-column="97" selection-end-line="69" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <marker date="1506437243549" expanded="true" signature="257:411" ph="SELECT id, u... ${$db_table_prefix}" />
+            <marker date="1506437243549" expanded="true" signature="1805:1988" ph="INSERT INTO qe_contact... " />
+            <marker date="1506437243549" expanded="true" signature="2477:2664" ph="INSERT INTO qe_items... " />
+            <marker date="1506437243549" expanded="true" signature="3030:3219" ph="SELECT id, u... user" />
+            <marker date="1506437243549" expanded="true" signature="4761:4965" ph="SELECT id, u... user" />
           </folding>
         </state>
       </provider>

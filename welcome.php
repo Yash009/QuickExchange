@@ -86,39 +86,8 @@ if(!$_SESSION['email'])
         </div>
 		
     </header><!--/header-->
-    <br>
-        <br>
-            <br>
-                <br>
-                    <br>
-                    
-                        <br>    <br>
-                            <br>
-                                <br>
-                                    <br>
-                                    
-                                        <br>
-                                            <br>
-                                            <br>
-        <br>
-            <br>
-                <br>
-                    <br>
-                    
-                        <br>    <br>
-                            <br>
-                                <br>
-                                    <br>
-                                    
-                                        <br>
-                                            <br>
-                                                <br>
-                                                    <br>    <br>
-                                                        <br>
-                                                            <br>    <br>
 
-
-    <footer id="footer" class="midnight-blue">
+    <footer id="footer" class="midnight-blue" style="margin-top: 400px">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
