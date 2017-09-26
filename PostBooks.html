@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Post Books </title>
+
+    <!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body class="homepage">
+
+<header id="header">
+
+    <nav class="navbar navbar-inverse" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">HOME</a></li>
+                    <li><a href="Textbook.php">TEXTBOOK</a></li>
+                    <li><a href="#">SOCIAL EVENTS</a></li>
+                    <li><a href="#">QUESTIONS&ANSWERS</a></li>
+                    <li><a href="#">FIND ROOMATES</a></li>
+                    <li><a href="#">FIND TUTORS</a></li>
+                    <li><a href="login.php">LOGIN</a></li>
+
+
+
+                </ul>
+            </div>
+            </div>
+
+    </nav><!--/nav-->
+    </header>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">Post a textbook</h3>
+    </div>
+    <div class="panel-body">
+        <form method="post" action="post.php" enctype="multipart/form-data">
+            <div class="form-group">
+                <label>User ID</label>
+                <input type="text" name="userid" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label>Contact Email</label>
+                <input type="text" name="contactemail" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Title</label>
+                <input type="text" name="title" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Description</label>
+                <textarea name="description" class="form-control"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Author</label>
+                <input type="text" name="author" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Price</label>
+                <input type="number" step = "0.01" name="price" class="form-control" />
+            </div>
+              <div>
+                 Choose an image: <input type="file" name="imageupload" value="imageupload">
+
+            <!--       <a href="image.html" onclick="return popitup('image.html')">Upload Image</a>
+                   <script language="javascript" type="text/javascript">
+
+                       function popitup(url) {
+                           newwindow=window.open(url,'name','height=50,width=700');
+                           if (window.focus) {newwindow.focus()}
+                           return false;
+                       }
+
+</script>
+-->
+
+                                  </div>
+
+
+
+
+
+            <input class="btn btn-primary" name="submit" type="submit" value="submit" >
+            <input class="btn btn-primary" name="back" type="button" value="back" onclick="history.back()" />
+
+        </form>
+    </div>
+</div>
