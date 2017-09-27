@@ -73,7 +73,7 @@ session_start(); ?>
     </header><!--/header-->
     <form method="post" action="SearchedItem.php">
         <div class="form-group">
-            <input type="text" name="Search" class="form-control" placeholder="Search by book name or author or price" />
+            <input type="text" name="Search" class="form-control" placeholder="Search by title" />
 
             <input class="btn btn-primary" name="search" type="submit" value="Search For Books" >
         </div>
@@ -95,10 +95,10 @@ error_reporting(0);
 
  <div class = "well">
             
-            <p><label>Title: </label><?php echo $item['title'];?></p>
-            <p><label>Description: </label><?php echo $item['description'];?></p>
-            <p><label>Author: </label><?php echo $item['author'];?></p>
-            <p><label>Price: </label><?php echo $item['price'];?></p>
+            <p><label>Title: </label><?php echo "  {$item['title']}";?></p>
+            <p><label>Description: </label><?php echo "  {$item['description']}";?></p>
+            <p><label>Barter Conditions:</label><?php echo "  {$item['author']}";?></p>
+            <p><label>Price: </label><?php echo "  {$item['price']}";?></p>
      <p><label>Picture: </label><?php echo "<td><img src='images/$item[imageupload]' height='150px' width='300px'></td>"; ;?></p>
 <?php if($_SESSION['email'])  
       {  ?>

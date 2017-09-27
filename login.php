@@ -42,18 +42,13 @@ session_start();//session starts here
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                  
                 </div>
                 <img src="images/logo.png">
                 <div class="collapse navbar-collapse navbar-right">
-
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">HOME</a></li>
                         <li><a href="Textbook.php">Item</a></li>
                         <li><a href="login.php">LOGIN</a></li>
-                                         
-                                         
-
                     </ul>
                 </div>
         </nav><!--/nav-->
@@ -75,9 +70,7 @@ session_start();//session starts here
                             </div>  
                             <div class="form-group">  
                                 <input class="form-control" placeholder="Password" name="pass" type="password" value="">  
-                            </div>  
-  
-  
+                            </div>
                                 <input class="btn btn-primary btn-success btn-block" type="submit" value="login" name="login" >
   
                             <!-- Change this to a button or input when using this as a form -->  
@@ -88,10 +81,7 @@ session_start();//session starts here
             </div>  
         </div>  
     </div>  
-</div>  
-
-
-
+</div>
  <footer id="footer" class="midnight-blue"style="margin-top: 380px">
         <div class="container">
             <div class="row">

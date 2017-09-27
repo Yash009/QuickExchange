@@ -59,15 +59,24 @@ if(!$_SESSION['email'])
                     </ul>
                 </div>
         </nav><!--/nav-->
-        <div>
+        <div style="padding:2% 40%;color: white;background-color: grey">
+<h1>Post Your Needs</h1>
             <?php if(isset($_SESSION['email'])) : ?>
                 <div class="form-group">
-                    <a class="btn btn-primary" href="PostBooks.html" >Exchange Now</a>
+                    <a class="btn btn-primary" href="PostBooks.html" style="margin-left:30%">Exchange Now</a>
                 </div>
-
             <?php else :  ?>
-
             <?php endif;?>
+        </div>
+        <div style="padding:2% 38%;color: white;background-color: grey;margin-top: 5%">
+            <h1>Search Your Needs</h1>
+            <form method="post" action="SearchedItem.php" style="margin-top: 5%">
+                <div class="form-group">
+                    <input type="text" name="Search" class="form-control" placeholder="Search by title" style="border-color: black" />
+                    <input class="btn btn-primary" name="search" type="submit" value="Search For Books" style="margin-left: 35%" >
+                </div>
+            </form>
+        </div>
 
         </div>
     </header><!--/header-->
