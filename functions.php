@@ -60,10 +60,6 @@ function fetchAllUsers() {
   $stmt->close();
   return ($row);
 }
-
-
-
-
 //Create a new user
 
 /**

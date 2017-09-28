@@ -60,12 +60,7 @@ session_start(); ?>
                           <li><a href="login.php">LOGIN</a></li>  
                           <?php
                            }
-
                           ?>
-                             
-                                
-                                         
-
                     </ul>
                 </div>
         </nav><!--/nav-->
@@ -78,9 +73,7 @@ session_start(); ?>
             <input class="btn btn-primary" name="search" type="submit" value="Search For Books" >
         </div>
     </form>
-
-
-<?php 
+    <?php
 
 include("config.php");
 error_reporting(0);
@@ -143,7 +136,6 @@ error_reporting(0);
             </div>
         </div>
     </footer><!--/#footer-->
-
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>

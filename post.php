@@ -6,8 +6,6 @@
  * Time: 10:53 PM
  */
 require_once("config.php");
-
-
 $target_dir = "images/";
 $target_file = $target_dir . basename($_FILES["imageupload"]["name"]);
 $uploadOk = 1;
@@ -50,9 +48,6 @@ if ($uploadOk == 0) {
         echo "Sorry, there was an error uploading your file.";
     }
 }
-
-
-
 // Assigning $_POST values to individual variables for reuse.
 $userid = $_POST['userid'];
 $contactemail = $_POST['contactemail'];
